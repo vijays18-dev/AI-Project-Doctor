@@ -1,0 +1,25 @@
+# Frontend
+node_modules/
+dist/
+
+# Backend
+target/
+build/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+backend/error.txt
